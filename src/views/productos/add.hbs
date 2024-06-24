@@ -1,0 +1,38 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase">Crear Nuevo Producto</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/add" method="post">
+                        <div class="input-group mt-2">
+                            <label for="nombre" class="input-group-text">Nombre</label>
+                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ejemplo: Alan Sanjurjo" autofocus required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="precio" class="input-group-text">Precio</label>
+                            <input class="form-control" type="number" name="precio" id="precio" placeholder="Ejemplo: 1541" required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="descripcion" class="input-group-text">Descripcion</label>
+                            <input class="form-control" type="text" name="descripcion" id="descripcion" placeholder="Ejemplo: Felix Araujo">
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="stock" class="input-group-text">Stock</label>
+                            <input class="form-control" type="number" name="stock" id="stock" placeholder="Ejemplo: 2612465120" required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="imagenUrl" class="input-group-text">URL Imagen</label>
+                            <input class="form-control" type="text" name="imagenUrl" id="imagenUrl" placeholder="Ejemplo: 43749568">
+                        </div>
+                        <div class="form-group mt-4 d-grid gap-2">
+                            <button class="btn btn-success">Crear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
